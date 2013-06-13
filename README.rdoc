@@ -1,0 +1,19 @@
+RoR Ummi Project . 
+ 
+ *Devi Firdaus
+ *Alam
+ *Raynoe
+ *Anis Nurlatifah
+ *Firman Wismbudi
+ *Yaya
+
+Pake Github.com
+
+Tutorial =>
+  # Daftar di Github.com
+  # https://www.digitalocean.com/community/articles/how-to-install-git-on-ubuntu-12-04
+  # http://git-scm.com/documentation
+
+
+
+
