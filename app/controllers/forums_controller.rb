@@ -14,6 +14,7 @@ class ForumsController < ApplicationController
   # GET /forums/1.json
   def show
     @forum = Forum.find(params[:id])
+    @komentars = @forum.komentar.all
 
     respond_to do |format|
       format.html # show.html.erb

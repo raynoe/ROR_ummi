@@ -6,7 +6,12 @@ Rorummi::Application.routes.draw do
   ActiveAdmin.routes(self)
 
   resources :forums
+<<<<<<< HEAD
+  resources :komentars
+
+=======
   resources :votes
+>>>>>>> 8fa1f0e5d8135a587d482a38dbf0deb6dc6e5efe
 
   root :to => 'home#index'
   # The priority is based upon order of creation:
