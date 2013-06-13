@@ -15,8 +15,10 @@
     <td><%= forum.title %></td>
     <td><%= forum.category %></td>
     <td><%= forum.description %></td>
-    <td><%= link_to 'Show', forum %></td>
-    <td><%= link_to 'Edit', edit_forum_path(forum) %></td>
+    <td><%= pluralize(forum.votes.count, "vote") %></td>
+    <td><%= button_to '+1', votes_path(forum_id: forum.id), method: :post %></td>
+    <!-- <td><%= link_to 'Show', forum %></td>
+    <td><%= link_to 'Edit', edit_forum_path(forum) %></td> -->
     <td><%= link_to 'Destroy', forum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
 <% end %>

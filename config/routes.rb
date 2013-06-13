@@ -2,7 +2,7 @@ Rorummi::Application.routes.draw do
   devise_for :users
 
   resources :forums
-
+  resources :votes
 
   root :to => 'home#index'
   # The priority is based upon order of creation:
