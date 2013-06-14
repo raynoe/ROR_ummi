@@ -14,7 +14,16 @@
   <b>Description:</b>
   <%= @forum.description %>
 </p>
-
-
+		<div id='komentars'>	
+			Komentar
+			<br/>
+				<% @komentars.each do |com| %>
+				<%= com.description_komentar %><br/>
+				<% end %>
+	</div>
+<div id='comment'>
+	New Comment
+<%= render :partial => "komentars/new" %>
+</div>
 <%= link_to 'Edit', edit_forum_path(@forum) %> |
 <%= link_to 'Back', forums_path %>

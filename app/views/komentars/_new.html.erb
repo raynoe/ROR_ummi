@@ -1,0 +1,7 @@
+<%= form_for :komentar,:url => url_for(:controller => 'komentars', :action => 'create') do |form| %>
+<br/>
+	<%= form.text_area :description_komentar, :rows => '2' %><br/>
+	<%= form.hidden_field :forum_id, :value => @forum.id %><br/>
+	<%= submit_tag "Save" %>
+<% end %>
+</div>
