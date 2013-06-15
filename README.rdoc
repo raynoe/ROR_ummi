@@ -4,7 +4,7 @@ RoR Ummi Project .
  *Alam
  *Raynoe
  *Anis Nurlatifah
- *Firman Wismbudi
+ *Firman Wismbudi oke
  *Yaya
 
 Pake Github.com
